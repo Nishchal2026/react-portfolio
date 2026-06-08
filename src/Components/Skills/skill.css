@@ -1,0 +1,139 @@
+.skills-section{
+    width: 100%;
+    height: 60rem;
+    background-color: aqua;
+    background-image: linear-gradient(to right,rgba(128, 0, 128, 0.897), rgba(0, 0, 255, 0.921));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.skills-section h1{
+    font-size: 4rem;
+    color: aqua;
+}
+
+.skills{
+    width: 80%;
+    height: 40rem;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+.skills ul{
+    display: flex;
+     margin-top: 12rem;
+    width: 200%;
+    /* background-color: brown; */
+    list-style-type: none;
+    transition: all 0.5s linear;
+     
+
+}
+.skill-progress{
+    /* border-radius: 1rem; */
+    width: 90%;
+    height: 0.6rem;
+    background-color: rgba(0, 4, 255, 0.434);
+    margin-top: 5rem;
+ 
+ }
+
+ .skill span{
+    margin-top: 4rem;
+    font-weight: bold;
+    font-size: 2.8rem;
+     
+
+ }
+ 
+ .html-progress-bar{
+     width: 90%;
+     height: 100%;
+     /* box-shadow: 0 0 0.6rem 0.1rem aqua; */
+     box-shadow: 0 0 0.5rem 0.01rem aqua;
+     background-color: aqua;
+     /* background-color: red; */
+    }
+    .css-progress-bar{
+        width: 92%;
+    height: 100%;
+    box-shadow: 0 0 0.5rem 0.01rem aqua;
+    background-color: aqua;
+}
+.javascript-progress-bar{
+    width: 75%;
+    height: 100%;
+    /* box-shadow: 0 0 0.6rem 0.1rem aqua; */
+    box-shadow: 0 0 0.5rem 0.01rem aqua;
+    background-color: aqua;
+}
+ .react-progress-bar{
+     width: 80%;
+     height: 100%;
+     /* box-shadow: 0 0 0.6rem 0.1rem aqua; */
+     box-shadow: 0 0 0.5rem 0.01rem aqua;
+     background-color: aqua;
+    }
+    .dsa-progress-bar{
+        width: 20%;
+        height: 100%;
+        /* box-shadow: 0 0 0.6rem 0.1rem aqua; */
+        box-shadow: 0 0 0.5rem 0.01rem aqua;
+        background-color: aqua;
+    }
+    .c-progress-bar{
+        width: 65%;
+        height: 100%;
+        /* box-shadow: 0 0 0.6rem 0.1rem aqua; */
+        box-shadow: 0 0 0.5rem 0.01rem aqua;
+    background-color: aqua;
+ }
+
+.skill{
+     display: flex;
+      flex-direction: column;
+      align-items: center;
+   
+    width: 30rem;
+    height: 15rem;
+    background-color: rgba(255, 255, 255, 0.307);
+}
+
+.skills li{
+    margin-inline: 3rem;
+}
+
+.move-back{
+    position: absolute;
+    left: 10rem;
+    /* left: 0; */
+    top: 45%;
+}
+.move-forward{
+    position: absolute;
+    right: 10rem;
+  top: 45%;
+}
+
+.skills-section button{
+padding: 1rem;
+border: none;
+outline: none;
+cursor: pointer;
+font-weight: bold;
+background-color: rgb(230, 0, 255);
+ font-size: 2rem;
+ transition: all 0.3s ease;
+ box-shadow: 0 0 1rem 0.5rem aqua
+}
+
+.skills-section button:hover{
+     box-shadow: 0 0 0 0.2rem aqua  ;
+}
+
+.skills-section button:active{
+    opacity: 0.4;
+}

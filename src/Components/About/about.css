@@ -1,0 +1,66 @@
+.about{
+    width: 100%;
+    height: 55rem;
+   
+    display: flex;
+ 
+    padding: 2rem;
+     background-image: linear-gradient(to right , rgba(255, 0, 0, 0.355) , rgba(255, 255, 0, 0.293));
+    gap: 5rem;
+    margin-top: 3rem;
+ justify-content: center;    
+}
+
+.about-img{
+    width: 30%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+   
+    margin-top: 7rem;
+}
+
+ 
+.about-me{
+padding: 1.5rem;
+    width: 60%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.314);
+ 
+}
+
+.about-me h1{
+    color: white;
+    font-size: 3rem;
+    border-bottom: 0.2rem solid aqua;
+    border-bottom-style: dotted;
+    padding-bottom: 1.5rem;
+     
+    text-align: center;
+    padding: 1rem;
+}
+
+ 
+
+.about-me span{
+   color: aqua; 
+   
+}
+
+
+
+.about-me p{
+    letter-spacing: 0.1rem;
+    word-spacing: 0.2rem;
+    line-height: 1.5;
+    font-size: 2rem;
+    color: wheat;
+    margin-top: 2rem;
+    width: 90%;
+    margin-left: 4.5rem;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.121);
+    padding: 1.5rem;
+}

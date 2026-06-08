@@ -1,0 +1,138 @@
+  .education{
+    width: 100%;
+    height: 50rem;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+   background-color: rgba(83, 0, 249, 0.163);
+    justify-content: space-between;
+    padding: 2rem;
+  }
+
+  .education-image{
+    width:25% ;
+    height: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .education-details{
+    width: 55%;
+    padding: 2rem;
+    height: 100%;
+   
+  }
+
+  .course-details{
+    width: 100%;
+    height: 15rem;
+ background-color: rgba(8, 0, 255, 0.707);
+ margin-block: 4rem;
+ padding: 1rem;
+ line-height: 1.5;
+}
+
+.college-name h2{
+    color:chocolate;
+    font-size: 2rem;
+    padding-left: 2rem;
+    
+}
+
+.course-details p{
+    font-size: 1.6rem;
+    color: white;
+    padding-left: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+.education h4{
+    /* background-color: red; */
+    font-size: 2.5rem;
+    color: red;
+}
+
+.course-details span{
+    font-size: 2rem;
+    display: block;
+    margin-block: 1rem;
+    font-weight: bold;
+    color: greenyellow;
+    padding-left: 1.5rem;
+}
+
+.college-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.college-name button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: chocolate;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 1.5rem;
+} 
+
+
+.school-details{
+    width: 100%;
+    padding: 1rem;
+    height: 15rem;
+    
+    background-color: rgba(8, 0, 255, 0.707);
+    margin-block: 2rem;
+}
+
+.school-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    .school-name h2{
+        color:chocolate;
+        font-size: 2rem;
+        padding-left: 2rem;
+        
+    }
+    .school-name button{
+        font-size: 1.5rem;
+            font-weight: bold;
+            color: chocolate;
+            padding: 0.5rem 1.5rem;
+            border: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            outline: none;
+            cursor: pointer;
+            background-color: black;
+            border-radius: 1.5rem;
+        } 
+        .school-details p{
+            font-size: 2rem;
+                font-weight: bold;
+                margin-top: 0.4rem;
+                color: white;
+                padding-left: 2rem;
+            }
+                .school-details span{
+                    font-size: 2rem;
+                    display: block;
+                    margin-block: 1rem;
+                    font-weight: bold;
+                    color: greenyellow;
+                    padding-left: 1.5rem;
+                }
